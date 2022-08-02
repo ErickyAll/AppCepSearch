@@ -1,0 +1,33 @@
+.adressForm {
+
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: linear-gradient(to left, #7A9FBF, #0367A6);
+
+}
+
+.adressForm label {
+  
+  font-size: 25px;
+
+}
+
+.adressForm input {
+
+  width: 450px;
+  font-size: 30px;
+
+}
+
+input::placeholder {
+
+  padding-left: 120px;
+  
+}
+
+

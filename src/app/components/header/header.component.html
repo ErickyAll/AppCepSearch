@@ -1,0 +1,19 @@
+<header>
+  <h1 class="title">Consultar Endereços a partir do CEP</h1>
+
+  <div class="searchCep">
+    <label for="cep">CEP</label>
+    <input type="text" id="cep" placeholder="Digite o CEP..." />
+
+    <a routerLink="/adress">
+      <button
+        type="button"
+        class="btn btn-success"
+        id="loadResult"
+        onclick="consultarCEP()"
+      >
+        Buscar
+      </button>
+    </a>
+  </div>
+</header>
